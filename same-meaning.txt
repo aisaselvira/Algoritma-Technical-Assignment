@@ -4,6 +4,8 @@ Input hanya dapat menerima tipe data berupa string/teks.
 
 JAWAB : 
 
+START 
+
 function palindrome(str) {
 let x = str.length-1;
 
@@ -14,6 +16,8 @@ if (x === 1 || str.length === 0) {
 		} return false;
 	}
 }
+
+END
 
 
 
